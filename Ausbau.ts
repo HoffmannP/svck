@@ -6,16 +6,16 @@ export interface Ausbau {
 }
 
 export interface Ritter extends Ausbau {
-    handschuhe: number,
-    koepfe: number
+    readonly handschuhe: number,
+    readonly koepfe: number
 }
 
 export interface Flotte extends Ausbau {
-    rohstoff: Rohstoff
+    readonly rohstoff: Rohstoff
 }
 
 export interface Bauwerk extends Ausbau {
-    kloster_bibliothek_universitaet: boolean
-    ist_lager: boolean
-    nur_stadt: boolean
+    readonly kloster_bibliothek_universitaet: boolean
+    readonly ist_lager: boolean
+    readonly nur_stadt: boolean
 }

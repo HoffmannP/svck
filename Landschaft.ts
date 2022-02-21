@@ -3,8 +3,8 @@ import { Ausbau } from './Ausbau'
 import { Siedlung } from './Siedlung'
 
 export interface Landschaft {
-    readonly rohstoff: Rohstoff
-    readonly wuerfelzahl: number
+    rohstoff: Rohstoff
+    wuerfelzahl: number
     menge: number
     ausbau: Ausbau[]
     siedlungen: Siedlung[]

@@ -16,8 +16,8 @@ export enum Siedlungstyp {
 }
 
 export interface Kost {
-    rohstoff: Rohstoff,
-    anzahl: Number
+    readonly rohstoff: Rohstoff,
+    readonly anzahl: Number
 }
 
 export type Kosten = Kost[]
